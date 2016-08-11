@@ -1,5 +1,5 @@
 ##Sobre o projeto
-**rafwell/laravel-municipios** é um pacote com models, migrations e seeds de ufs e municipios brasileiros.
+**rafwell/laravel-municipios** é um pacote com models, migrations e seeds de ufs e municipios brasileiros para utilizar em sistemas feitos em Laravel > 5.
 
 ##Instalação
 1. Adicione ao seu composer.json: ```"rafwell/laravel-municipios": "dev-master"``` e execute um ```composer update```.
