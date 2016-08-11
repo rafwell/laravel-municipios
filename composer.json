@@ -1,0 +1,16 @@
+{
+    "name": "rafwell/laravel-municipios",
+    "description": "Municípios e UFS para Laravel com Models, Migrations e Seeds.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Alves",
+            "email": "rafaotec@gmail.com"
+        }
+    ],        
+    "autoload": {
+        "psr-4": {
+            "Rafwell\\Municipios\\": "src/"
+        }
+    }
+}
