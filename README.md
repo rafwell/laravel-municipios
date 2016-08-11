@@ -1,7 +1,7 @@
 ##Sobre o projeto
 **rafwell/laravel-municipios** é um pacote com models, migrations e seeds de ufs e municipios brasileiros para utilizar em sistemas feitos em Laravel > 5.
 
-##Instalação
+##Instalação via Composer
 1. Adicione ao seu composer.json: ```"rafwell/laravel-municipios": "dev-master"``` e execute um ```composer update```.
 2. Adicione ao seu ```app/config/app.php``` o seguinte provider:
     ```
@@ -11,6 +11,9 @@
 4. Execute os migrations para criar as tabelas: ```php artisan migrate```
 5. Execute ```composer dumpautoload```.
 6. Execute os seeds para dar carga nas tabelas: ```php artisan db:seed --class=insere_ufs``` e ```php artisan db:seed --class=insere_municipios```.
+
+##Instalação manual
+Clone o repositório ou baixe a última versão e leve os arquivos da pasta src/ para dentro do seu projeto. Em seguida, execute ```composer dumpautoload```, ```php artisan migrate```, ```php artisan db:seed --class=insere_ufs``` e ```php artisan db:seed --class=insere_municipios```.
 
 ##Utilização
 Após a configuração, adicione os models aos seus controllers e utilize como desejar.
